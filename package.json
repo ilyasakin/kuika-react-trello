@@ -41,6 +41,8 @@
     "classnames": "^2.2.6",
     "immutability-helper": "^2.8.1",
     "lodash": "^4.17.11",
+    "patch-package": "^8.0.0",
+    "postinstall-postinstall": "^2.1.0",
     "prop-types": "^15.7.2",
     "react-popopo": "^2.1.9",
     "react-redux": "^5.0.7",
