@@ -1,6 +1,6 @@
 {
   "name": "kuika-react-trello",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Pluggable components to add a trello like kanban board to your application",
   "main": "dist/index.js",
   "files": [
@@ -19,8 +19,7 @@
     "commit": "git cz",
     "deploy-storybook": "storybook-to-ghpages",
     "format": "pretty-quick \"src/**/*.js\"",
-    "size": "size-limit",
-    "postinstall": "patch-package"
+    "size": "size-limit"
   },
   "repository": {
     "type": "git",
@@ -37,15 +36,13 @@
     "classnames": "^2.2.6",
     "immutability-helper": "^2.8.1",
     "lodash": "^4.17.11",
-    "patch-package": "^8.0.0",
-    "postinstall-postinstall": "^2.1.0",
     "prop-types": "^15.7.2",
     "react-popopo": "^2.1.9",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
     "redux-actions": "^2.6.1",
     "redux-logger": "^3.0.6",
-    "trello-smooth-dnd": "1.0.0",
+    "kuika-smooth-dnd": "1.0.0",
     "uuid": "^3.3.2"
   },
   "devDependencies": {
